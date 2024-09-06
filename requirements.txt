@@ -1,0 +1,7 @@
+openai
+youtube-transcript-api 
+pytube
+flask
+jsonify
+openpyxl
+pandas
