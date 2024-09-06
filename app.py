@@ -15,7 +15,7 @@ df = pd.read_excel(file_path)
 openai.api_key = ""  # Replace with your OpenAI API key
 
 # Function to query ChatGPT for information retrieval
-def query_chatgpt(query, df, model="text-davinci-003"):
+def query_chatgpt(query, df, model="GPT-3.5 Turbo"):
     # Combine all transcription chunks into a single text corpus for retrieval
     corpus = []
     for index, row in df.iterrows():
